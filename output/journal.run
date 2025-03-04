@@ -1,0 +1,12 @@
+{"when":1741086543,"controller":"rcc.sema4aicode","event":"start task","detail":"name=Run Task from=c:\\Certifikaatti\\robot.yaml","comment":"at task environment setup"}
+{"when":1741086543,"controller":"rcc.sema4aicode","event":"environment","detail":"build","comment":"Progress: 00/15 v18.5.0 0.073s Context: \"RikuTomann\" \u003cAzureAD\\RikuTomann@Riku-RiverIT\u003e [windows_amd64/Microsoft Windows [Version 10.0.22631.3296]]."}
+{"when":1741086543,"controller":"rcc.sema4aicode","event":"environment","detail":"build","comment":"Progress: 01/15 v18.5.0 0.007s Fresh [shared mode] holotree environment 4b9beb65-c38c-bd52-a9e3-430858566128. (parent/pid: 18084/16092)"}
+{"when":1741086543,"controller":"rcc.sema4aicode","event":"environment","detail":"build","comment":"Progress: 02/15 v18.5.0 0.007s Holotree blueprint is \"f8473fc0a8802d39\" [windows_amd64 with 13 workers on 14 CPUs from \"conda.yaml\"]."}
+{"when":1741086543,"controller":"rcc.sema4aicode","event":"environment","detail":"build","comment":"Progress: 14/15 v18.5.0 0.333s Restore space from library [with 13 workers on 14 CPUs; with compression: true]."}
+{"when":1741086544,"controller":"rcc.sema4aicode","event":"environment","detail":"build","comment":"Progress: 15/15 v18.5.0 0.494s Fresh holotree done [with 13 workers on 14 CPUs]."}
+{"when":1741086544,"controller":"rcc.sema4aicode","event":"start","detail":"robot","comment":"started"}
+{"when":1741086544,"controller":"rcc.sema4aicode","event":"run","detail":"robot","comment":"task run"}
+{"when":1741086544,"controller":"rcc.sema4aicode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[22428:python.exe]"}
+{"when":1741086552,"controller":"rcc.sema4aicode","event":"robot exit","detail":"From rcc \"v18.5.0\" (controller: \"Sema4aiCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 0xc000013a","comment":"rcc point of view"}
+{"when":1741086552,"controller":"rcc.sema4aicode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1741086553,"controller":"rcc.sema4aicode","event":"stop","detail":"robot","comment":"done"}

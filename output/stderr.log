@@ -1,0 +1,98 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\tasks\__main__.py", line 4, in <module>
+    main()
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\tasks\cli.py", line 121, in main
+    returncode = dispatcher.process_args(args, pm=plugin_manager)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\tasks\_argdispatch.py", line 230, in process_args
+    return self._dispatch(parsed, pm)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\tasks\_argdispatch.py", line 25, in _dispatch
+    return method(**dct)
+           ^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\tasks\_commands.py", line 416, in run
+    tasks: List[ITask] = list(collect_tasks(pm, p, task_names, glob))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\tasks\_collect_tasks.py", line 214, in collect_tasks
+    import_path(path, root=root)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\tasks\_collect_tasks.py", line 105, in import_path
+    spec.loader.exec_module(mod)  # type: ignore[union-attr]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "c:\Certifikaatti\tasks.py", line 4, in <module>
+    from RPA.HTTP import HTTP
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\RPA\HTTP.py", line 8, in <module>
+    import RequestsLibrary.log
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\RequestsLibrary\__init__.py", line 1, in <module>
+    from .DeprecatedKeywords import DeprecatedKeywords
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\RequestsLibrary\DeprecatedKeywords.py", line 3, in <module>
+    from robot.api import logger
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robot\__init__.py", line 43, in <module>
+    from robot.rebot import rebot, rebot_cli
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robot\rebot.py", line 38, in <module>
+    from robot.conf import RebotSettings
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robot\conf\__init__.py", line 27, in <module>
+    from .languages import Language, LanguageLike, Languages, LanguagesLike
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robot\conf\languages.py", line 22, in <module>
+    from robot.utils import classproperty, is_list_like, Importer, normalize
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 197, in exec_module
+    exec(co, module.__dict__)
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robot\utils\__init__.py", line 61, in <module>
+    from .robottime import (elapsed_time_to_string, format_time, get_elapsed_time,
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 188, in exec_module
+    source_stat, co, _tree = _rewrite(fn, self.config, filter_kind)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\site-packages\robocorp\log\_rewrite_importhook.py", line 270, in _rewrite
+    source = fn.read_bytes()
+             ^^^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\sema4ai\ht\883e98a_c5e81ff_1c0bc041\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
