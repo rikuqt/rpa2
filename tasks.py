@@ -2,7 +2,7 @@ from robocorp.tasks import task
 from robocorp import browser
 
 from RPA.HTTP import HTTP
-from RPA.Excel.Files import Files
+from RPA.Archive import Archive
 from RPA.PDF import PDF
 from RPA.Tables import Tables
 import zipfile
